@@ -95,36 +95,6 @@ s3://your-bucket/hls/video-name/
     └── ...
 ```
 
-## 🎮 Use Cases
-
-### 🏢 Enterprise Applications
-
-- **Corporate Training**: Convert training videos for multi-device access
-- **Webinars & Conferences**: Stream recorded sessions efficiently
-- **Product Demos**: Showcase products with adaptive quality
-- **Internal Communications**: Company-wide video distribution
-
-### 🎓 Educational Platforms
-
-- **Online Courses**: Deliver educational content seamlessly
-- **Live Lecture Recording**: Process and distribute recorded lectures
-- **Student Submissions**: Handle video assignments at scale
-- **Distance Learning**: Support various connection speeds
-
-### 🎯 Media & Entertainment
-
-- **Content Delivery**: Distribute video content globally
-- **User-Generated Content**: Process uploads from users
-- **Live Stream Archives**: Convert live streams for on-demand viewing
-- **Multi-platform Distribution**: Single source, multiple formats
-
-### 🛒 E-commerce & Marketing
-
-- **Product Videos**: Showcase products with optimal quality
-- **Marketing Campaigns**: Distribute promotional content
-- **Customer Testimonials**: Process and display user videos
-- **Social Media Content**: Prepare videos for various platforms
-
 ## 🚀 Quick Start
 
 ### Prerequisites
