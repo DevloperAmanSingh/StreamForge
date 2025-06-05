@@ -30,18 +30,7 @@ StreamForge is built with a microservices architecture designed for scalability 
 
 ## 🔄 Processing Flow
 
-```mermaid
-graph LR
-    A[Video Upload] --> B[S3 Bucket]
-    B --> C[S3 Event Notification]
-    C --> D[SQS Queue]
-    D --> E[API Service]
-    E --> F[Docker Container]
-    F --> G[FFmpeg Processing]
-    G --> H[Multi-Quality HLS]
-    H --> I[S3 Upload]
-    I --> J[Playback Ready]
-```
+<img width="1088" alt="image" src="https://github.com/user-attachments/assets/5f6d9926-0511-4f08-800e-344658e27dfb" />
 
 ### Step-by-Step Process
 
