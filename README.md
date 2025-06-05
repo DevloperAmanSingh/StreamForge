@@ -209,35 +209,6 @@ The system uses optimized FFmpeg settings:
 - **Storage**: Temporary space for processing
 - **Network**: High bandwidth for S3 uploads
 
-## 🔧 Advanced Configuration
-
-### Custom Quality Levels
-
-Modify `hls-transcoder/src/ffmpeg/builder.ts`:
-
-```typescript
-const QUALITY_VARIANTS: QualityVariant[] = [
-  {
-    name: "480p",
-    resolution: "854x480",
-    videoBitrate: "1200k",
-    audioBitrate: "96k",
-  },
-  // Add more variants...
-];
-```
-
-### Processing Timeout
-
-Adjust timeout in `api/src/consumers/sqsListener.ts`:
-
-```typescript
-setTimeout(() => {
-  dockerProcess.kill();
-  reject(new Error("Docker process timed out"));
-}, 20 * 60 * 1000); // 20 minutes
-```
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
